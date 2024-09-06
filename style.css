@@ -1,0 +1,160 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {	
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding-top: 100px;
+}
+
+h1 {
+    font-size: 56px;
+    color: #0044FF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 60px;
+    font-size: 48px;
+    color: #0044FF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 30px;
+    color: black;
+   	margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.description-text {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.slash {
+    font-size: 30px;
+    color: #888;
+}
+
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.portfolio-item {
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    text-align: center;
+    height: auto;
+    overflow: visible;
+}
+
+.project-description {
+    font-size: 22px;
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.review-item {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    max-width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: auto;
+    overflow: visible;
+}
+
+.tos-notice {
+    background-color: #ffeb99;
+    color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 800px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #0044FF;
+}
+
+.tos-notice a {
+    color: #0044FF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tos-notice a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #0044FF;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
